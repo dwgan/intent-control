@@ -4,7 +4,14 @@
 
 配合语音识别模块，可实现智能语音控制。
 
-# 参考
+## 如何配置环境
+
+```bash
+conda env create -f environment.yml
+pip install -r pip_requirements.txt
+```
+
+## 参考
 
 > https://github.com/Linear95/bert-intent-slot-detector
 > 
