@@ -1,0 +1,100 @@
+[
+    {
+    "text": "搜索西红柿的做法。",
+
+    "domain": "cookbook",
+
+    "intent": "QUERY",
+
+    "slots": {"ingredient": "西红柿"}
+
+    },
+  {
+    "text": "请帮我打开客厅的灯",
+    "domain": "knx",
+    "intent": "TURN_ON",
+    "slots": {
+      "room": "客厅",
+      "name": "灯"
+    }
+  },
+  {
+    "text": "请帮我关闭客厅的灯",
+    "domain": "knx",
+    "intent": "TURN_OFF",
+    "slots": {
+      "room": "客厅",
+      "name": "灯"
+    }
+  },
+  {
+    "text": "请帮我打开卧室的灯",
+    "domain": "knx",
+    "intent": "TURN_ON",
+    "slots": {
+      "room": "卧室",
+      "name": "灯"
+    }
+  },
+  {
+    "text": "请帮我关闭卧室的灯",
+    "domain": "knx",
+    "intent": "TURN_OFF",
+    "slots": {
+      "room": "卧室",
+      "name": "灯"
+    }
+  },
+  {
+    "text": "请帮我打开客厅的空调",
+    "domain": "knx",
+    "intent": "TURN_ON",
+    "slots": {
+      "room": "客厅",
+      "name": "空调"
+    }
+  },
+  {
+    "text": "请帮我关闭客厅的空调",
+    "domain": "knx",
+    "intent": "TURN_OFF",
+    "slots": {
+      "room": "客厅",
+      "name": "空调"
+    }
+  },
+  {
+    "text": "请帮我打开卧室的空调",
+    "domain": "knx",
+    "intent": "TURN_ON",
+    "slots": {
+      "room": "卧室",
+      "name": "空调"
+    }
+  },
+  {
+    "text": "请帮我关闭卧室的空调",
+    "domain": "knx",
+    "intent": "TURN_OFF",
+    "slots": {
+      "room": "卧室",
+      "name": "空调"
+    }
+  },
+  {
+    "text": "请打开门",
+    "domain": "knx",
+    "intent": "TURN_ON",
+    "slots": {
+      "name": "门"
+    }
+  },
+  {
+    "text": "请关上门",
+    "domain": "knx",
+    "intent": "TURN_OFF",
+    "slots": {
+      "name": "门"
+    }
+  }
+]
