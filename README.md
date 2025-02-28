@@ -27,7 +27,7 @@ pip install -r requirements.txt
 
 ## 直接使用训练好的模型
 
-在release_2.0中下载`bert-base-chinese.zip`和`result.zip`这两个文件并且解压到该项目的根目录，运行`python test.py`，查看结果。
+在release_2.0中下载`bert-base-chinese.zip`和`result.zip`这两个文件并且解压到该项目的根目录，运行`python test.py '请打开二楼的灯'`，查看结果。
 
 如果希望训练一个自己的模型，接着往下看
 
@@ -85,6 +85,7 @@ python train.py \
 ```
 
 ## 意图与槽位预测
+
 训练结束后，我们通过在`JointIntentSlotDetector`类中加载训练好的模型进行意图与槽位预测。
 ```python
 from detector import JointIntentSlotDetector
@@ -101,6 +102,8 @@ print(model.detect('可以启动二楼的射灯吗'))
 # outputs:
 # {'text': '可以启动二楼的射灯吗', 'intent': 'OPEN', 'slots': {'room': ['二楼'], 'device': ['射灯']}}
 ```
+
+或者直接运行`python test.py '请打开二楼的灯'`
 
 ## 参考
 
