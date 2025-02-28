@@ -101,3 +101,14 @@ print(model.detect('可以启动二楼的射灯吗'))
 # outputs:
 # {'text': '可以启动二楼的射灯吗', 'intent': 'OPEN', 'slots': {'room': ['二楼'], 'device': ['射灯']}}
 ```
+
+## 参考
+
+本项目地址
+> https://github.com/dwgan/intent-control
+
+参考
+> https://github.com/Linear95/bert-intent-slot-detector
+>
+>  https://github.com/mzc421/NLP/tree/main/bert-intent-slot
+
