@@ -1,0 +1,7 @@
+[PAD]
+[UNK]
+[O]
+I_room
+B_room
+I_device
+B_device

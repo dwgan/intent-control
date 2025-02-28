@@ -1,0 +1,515 @@
+[
+  {
+    "text": "麻烦启动大门",
+    "domain": "app",
+    "intent": "OPEN",
+    "slots": {
+      "room": "客厅",
+      "device": "大门"
+    }
+  },
+  {
+    "text": "可以打开餐厅的冰箱吗？",
+    "domain": "app",
+    "intent": "OPEN",
+    "slots": {
+      "room": "餐厅",
+      "device": "冰箱"
+    }
+  },
+  {
+    "text": "请关上书房的风扇",
+    "domain": "app",
+    "intent": "CLOSE",
+    "slots": {
+      "room": "书房",
+      "device": "风扇"
+    }
+  },
+  {
+    "text": "请开启客厅的彩灯",
+    "domain": "app",
+    "intent": "OPEN",
+    "slots": {
+      "room": "客厅",
+      "device": "彩灯"
+    }
+  },
+  {
+    "text": "现在要启动卧室的灯带吗？",
+    "domain": "app",
+    "intent": "OPEN",
+    "slots": {
+      "room": "卧室",
+      "device": "灯带"
+    }
+  },
+  {
+    "text": "可以关掉厨房的阀门吗？",
+    "domain": "app",
+    "intent": "CLOSE",
+    "slots": {
+      "room": "厨房",
+      "device": "阀门"
+    }
+  },
+  {
+    "text": "帮我操作下打开充电桩",
+    "domain": "app",
+    "intent": "OPEN",
+    "slots": {
+      "room": "二楼",
+      "device": "充电桩"
+    }
+  },
+  {
+    "text": "现在要开启一楼的彩灯吗？",
+    "domain": "app",
+    "intent": "OPEN",
+    "slots": {
+      "room": "一楼",
+      "device": "彩灯"
+    }
+  },
+  {
+    "text": "系统请开启大灯",
+    "domain": "app",
+    "intent": "OPEN",
+    "slots": {
+      "room": "一楼",
+      "device": "大灯"
+    }
+  },
+  {
+    "text": "请打开厨房的空调",
+    "domain": "app",
+    "intent": "OPEN",
+    "slots": {
+      "room": "厨房",
+      "device": "空调"
+    }
+  },
+  {
+    "text": "现在要打开二楼的阀门吗？",
+    "domain": "app",
+    "intent": "OPEN",
+    "slots": {
+      "room": "二楼",
+      "device": "阀门"
+    }
+  },
+  {
+    "text": "把卧室的灯带关掉一下",
+    "domain": "app",
+    "intent": "CLOSE",
+    "slots": {
+      "room": "卧室",
+      "device": "灯带"
+    }
+  },
+  {
+    "text": "现在要打开一楼的冰箱吗？",
+    "domain": "app",
+    "intent": "OPEN",
+    "slots": {
+      "room": "一楼",
+      "device": "冰箱"
+    }
+  },
+  {
+    "text": "可以关闭一楼的一号灯吗？",
+    "domain": "app",
+    "intent": "CLOSE",
+    "slots": {
+      "room": "一楼",
+      "device": "一号灯"
+    }
+  },
+  {
+    "text": "开启那个餐厅的四号灯吧",
+    "domain": "app",
+    "intent": "OPEN",
+    "slots": {
+      "room": "餐厅",
+      "device": "四号灯"
+    }
+  },
+  {
+    "text": "可以启动餐厅的射灯吗？",
+    "domain": "app",
+    "intent": "OPEN",
+    "slots": {
+      "room": "餐厅",
+      "device": "射灯"
+    }
+  },
+  {
+    "text": "帮我操作下启动二号灯",
+    "domain": "app",
+    "intent": "OPEN",
+    "slots": {
+      "room": "客厅",
+      "device": "二号灯"
+    }
+  },
+  {
+    "text": "现在要启动二楼的大门吗？",
+    "domain": "app",
+    "intent": "OPEN",
+    "slots": {
+      "room": "二楼",
+      "device": "大门"
+    }
+  },
+  {
+    "text": "关掉那个书房的冰箱吧",
+    "domain": "app",
+    "intent": "CLOSE",
+    "slots": {
+      "room": "书房",
+      "device": "冰箱"
+    }
+  },
+  {
+    "text": "请启动书房的阀门",
+    "domain": "app",
+    "intent": "OPEN",
+    "slots": {
+      "room": "书房",
+      "device": "阀门"
+    }
+  },
+  {
+    "text": "把客厅的大灯关上一下",
+    "domain": "app",
+    "intent": "CLOSE",
+    "slots": {
+      "room": "客厅",
+      "device": "大灯"
+    }
+  },
+  {
+    "text": "把二楼的大灯打开一下",
+    "domain": "app",
+    "intent": "OPEN",
+    "slots": {
+      "room": "二楼",
+      "device": "大灯"
+    }
+  },
+  {
+    "text": "麻烦开启窗帘",
+    "domain": "app",
+    "intent": "OPEN",
+    "slots": {
+      "room": "餐厅",
+      "device": "窗帘"
+    }
+  },
+  {
+    "text": "请开启客厅的阀门",
+    "domain": "app",
+    "intent": "OPEN",
+    "slots": {
+      "room": "客厅",
+      "device": "阀门"
+    }
+  },
+  {
+    "text": "现在要开启书房的冰箱吗？",
+    "domain": "app",
+    "intent": "OPEN",
+    "slots": {
+      "room": "书房",
+      "device": "冰箱"
+    }
+  },
+  {
+    "text": "关掉那个一楼的冰箱吧",
+    "domain": "app",
+    "intent": "CLOSE",
+    "slots": {
+      "room": "一楼",
+      "device": "冰箱"
+    }
+  },
+  {
+    "text": "现在要打开客厅的窗帘吗？",
+    "domain": "app",
+    "intent": "OPEN",
+    "slots": {
+      "room": "客厅",
+      "device": "窗帘"
+    }
+  },
+  {
+    "text": "可以关掉二楼的大门吗？",
+    "domain": "app",
+    "intent": "CLOSE",
+    "slots": {
+      "room": "二楼",
+      "device": "大门"
+    }
+  },
+  {
+    "text": "需要关闭空调",
+    "domain": "app",
+    "intent": "CLOSE",
+    "slots": {
+      "room": "车库",
+      "device": "空调"
+    }
+  },
+  {
+    "text": "请启动厨房的大灯",
+    "domain": "app",
+    "intent": "OPEN",
+    "slots": {
+      "room": "厨房",
+      "device": "大灯"
+    }
+  },
+  {
+    "text": "现在要开启客厅的二号灯吗？",
+    "domain": "app",
+    "intent": "OPEN",
+    "slots": {
+      "room": "客厅",
+      "device": "二号灯"
+    }
+  },
+  {
+    "text": "请关掉车库的充电桩",
+    "domain": "app",
+    "intent": "CLOSE",
+    "slots": {
+      "room": "车库",
+      "device": "充电桩"
+    }
+  },
+  {
+    "text": "系统请启动大灯",
+    "domain": "app",
+    "intent": "OPEN",
+    "slots": {
+      "room": "二楼",
+      "device": "大灯"
+    }
+  },
+  {
+    "text": "关上那个一楼的四号灯吧",
+    "domain": "app",
+    "intent": "CLOSE",
+    "slots": {
+      "room": "一楼",
+      "device": "四号灯"
+    }
+  },
+  {
+    "text": "现在要关闭二楼的二号灯吗？",
+    "domain": "app",
+    "intent": "CLOSE",
+    "slots": {
+      "room": "二楼",
+      "device": "二号灯"
+    }
+  },
+  {
+    "text": "把一楼的窗帘关闭一下",
+    "domain": "app",
+    "intent": "CLOSE",
+    "slots": {
+      "room": "一楼",
+      "device": "窗帘"
+    }
+  },
+  {
+    "text": "现在要开启餐厅的窗帘吗？",
+    "domain": "app",
+    "intent": "OPEN",
+    "slots": {
+      "room": "餐厅",
+      "device": "窗帘"
+    }
+  },
+  {
+    "text": "关上那个车库的四号灯吧",
+    "domain": "app",
+    "intent": "CLOSE",
+    "slots": {
+      "room": "车库",
+      "device": "四号灯"
+    }
+  },
+  {
+    "text": "现在要开启二楼的充电桩吗？",
+    "domain": "app",
+    "intent": "OPEN",
+    "slots": {
+      "room": "二楼",
+      "device": "充电桩"
+    }
+  },
+  {
+    "text": "启动那个餐厅的大门吧",
+    "domain": "app",
+    "intent": "OPEN",
+    "slots": {
+      "room": "餐厅",
+      "device": "大门"
+    }
+  },
+  {
+    "text": "可以开启二楼的冰箱吗？",
+    "domain": "app",
+    "intent": "OPEN",
+    "slots": {
+      "room": "二楼",
+      "device": "冰箱"
+    }
+  },
+  {
+    "text": "把卧室的冰箱关闭一下",
+    "domain": "app",
+    "intent": "CLOSE",
+    "slots": {
+      "room": "卧室",
+      "device": "冰箱"
+    }
+  },
+  {
+    "text": "现在要启动厨房的窗帘吗？",
+    "domain": "app",
+    "intent": "OPEN",
+    "slots": {
+      "room": "厨房",
+      "device": "窗帘"
+    }
+  },
+  {
+    "text": "系统请启动灯带",
+    "domain": "app",
+    "intent": "OPEN",
+    "slots": {
+      "room": "车库",
+      "device": "灯带"
+    }
+  },
+  {
+    "text": "可以启动客厅的大灯吗？",
+    "domain": "app",
+    "intent": "OPEN",
+    "slots": {
+      "room": "客厅",
+      "device": "大灯"
+    }
+  },
+  {
+    "text": "帮我操作下开启四号灯",
+    "domain": "app",
+    "intent": "OPEN",
+    "slots": {
+      "room": "书房",
+      "device": "四号灯"
+    }
+  },
+  {
+    "text": "开启那个客厅的射灯吧",
+    "domain": "app",
+    "intent": "OPEN",
+    "slots": {
+      "room": "客厅",
+      "device": "射灯"
+    }
+  },
+  {
+    "text": "开启那个车库的充电桩吧",
+    "domain": "app",
+    "intent": "OPEN",
+    "slots": {
+      "room": "车库",
+      "device": "充电桩"
+    }
+  },
+  {
+    "text": "把书房的阀门关掉一下",
+    "domain": "app",
+    "intent": "CLOSE",
+    "slots": {
+      "room": "书房",
+      "device": "阀门"
+    }
+  },
+  {
+    "text": "现在要启动厨房的彩灯吗？",
+    "domain": "app",
+    "intent": "OPEN",
+    "slots": {
+      "room": "厨房",
+      "device": "彩灯"
+    }
+  },
+  {
+    "text": "系统请关闭冰箱",
+    "domain": "app",
+    "intent": "CLOSE",
+    "slots": {
+      "room": "书房",
+      "device": "冰箱"
+    }
+  },
+  {
+    "text": "系统请启动冰箱",
+    "domain": "app",
+    "intent": "OPEN",
+    "slots": {
+      "room": "卧室",
+      "device": "冰箱"
+    }
+  },
+  {
+    "text": "请打开一楼的风扇",
+    "domain": "app",
+    "intent": "OPEN",
+    "slots": {
+      "room": "一楼",
+      "device": "风扇"
+    }
+  },
+  {
+    "text": "关闭那个厨房的风扇吧",
+    "domain": "app",
+    "intent": "CLOSE",
+    "slots": {
+      "room": "厨房",
+      "device": "风扇"
+    }
+  },
+  {
+    "text": "现在要启动车库的三号灯吗？",
+    "domain": "app",
+    "intent": "OPEN",
+    "slots": {
+      "room": "车库",
+      "device": "三号灯"
+    }
+  },
+  {
+    "text": "打开那个一楼的三号灯吧",
+    "domain": "app",
+    "intent": "OPEN",
+    "slots": {
+      "room": "一楼",
+      "device": "三号灯"
+    }
+  },
+  {
+    "text": "把车库的充电桩关上一下",
+    "domain": "app",
+    "intent": "CLOSE",
+    "slots": {
+      "room": "车库",
+      "device": "充电桩"
+    }
+  }
+]
