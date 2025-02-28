@@ -25,6 +25,12 @@ conda activate 环境名称
 pip install -r requirements.txt
 ```
 
+## 直接使用训练好的模型
+
+在release_2.0中下载`bert-base-chinese.zip`和`result.zip`这两个文件并且解压到该项目的根目录，运行`python test.py`，查看结果。
+
+如果希望训练一个自己的模型，接着往下看
+
 ## 数据准备
 
 1. 生成数据集：通过运行`python data_generate.py`脚本，自动生成`data.json`数据集。数据集以json格式给出，每条数据包括三个关键词：`text`表示待检测的文本，`intent`代表文本的类别标签，`slots`是文本中包括的所有槽位以及对应的槽值，以字典形式给出。
